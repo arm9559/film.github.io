@@ -1,0 +1,17 @@
+section{
+    width: 500px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+        grid-gap: 15px;  
+    div{
+        img{
+            height: 305px;
+            transition: 0.5s;
+        }
+        img:hover{
+            transform: scale(1.5);
+        }
+    }
+}
